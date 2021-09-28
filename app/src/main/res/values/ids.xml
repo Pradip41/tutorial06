@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtWelcomeMessage" type="id" />
+    <item name="btnBackColor" type="id" />
+    <item name="cntBackGround" type="id" />
+    <item name="mnuAbout" type="id" />
+    <item name="mnuLogout" type="id" />
+    <item name="mnuBlueBackGround" type="id" />
+    <item name="blue" type="id" />
+    <item name="mnuGreenBackGround" type="id" />
+    <item name="green" type="id" />
+    <item name="mnuRedBackGround" type="id" />
+    <item name="menu_logout" type="id" />
+    <item name="menu_login" type="id" />
+    <item name="Logout" type="id" />
+    <item name="Login" type="id" />
+</resources>

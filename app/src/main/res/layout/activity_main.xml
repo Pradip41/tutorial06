@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/purple_200"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:paddingLeft="15sp"
+        android:paddingRight="15sp">
+
+    <TextView
+        android:layout_width="280sp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="30sp"
+        android:hint="@string/Login_Form"
+        android:textColor="@color/red"
+        android:textSize="50sp" />
+
+    <EditText
+        android:id="@+id/etusername"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:autofillHints=""
+        android:hint="@string/username"
+        android:inputType="textWebEditText" />
+
+    <EditText
+        android:id="@+id/etpassword"
+        android:layout_width="320sp"
+        android:layout_height="50sp"
+        android:hint="@string/password"
+        android:inputType="textPassword"
+        android:autofillHints="" />
+
+        <Button
+            android:id="@+id/loginbutton"
+            android:layout_width="250sp"
+            android:layout_height="50sp"
+            android:layout_margin="30sp"
+            android:onClick="fun1"
+            android:text="@string/fun1" />
+
+    </LinearLayout>
+</ScrollView>

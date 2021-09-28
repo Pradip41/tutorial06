@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">Tutorial06</string>
+    <string name="ex_name">Welcome to login page</string>
+    <string name="exp_name">Welcome,admin@gmail.com</string>
+    <string name="Login_Form">Login Form</string>
+    <string name="username">Enter your Email Address</string>
+    <string name="password">Enter your password</string>
+    <string name="fun1">Login me</string>
+    <string name="etusername">etusername</string>
+    <string name="enter_your_email_address">Enter your Email Address</string>
+    <string name="item_1">Item 1</string>
+    <string name="item_2" />
+    <string name="item_3" />
+    <string name="logout">Logout</string>
+</resources>
